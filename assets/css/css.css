@@ -1,0 +1,138 @@
+@font-face {
+    font-family: 'AnjomanMedium';
+    font-style: normal;
+    src:url("Anjoman-Medium.ttf");
+
+}
+@font-face {
+    font-family: 'AnjomanBold';
+    font-style: normal;
+    src:url("Anjoman-Bold.ttf");
+
+}
+
+.linetwo{
+    color: white ;  border-left: 3px solid white;height: 600px; padding-left: 20px;
+}
+.lineOne {
+    color: white;
+    border-left: 3px solid white;
+    height: 600px;
+    padding-left: 20px;
+}
+
+.newsInfo{
+    text-decoration: none;
+    color: black;
+    width:60px ; height: 20px ; padding: 20px 4px; background-color: white ; margin-left: 50px;
+}
+.newsInfo:hover{
+    text-decoration: none;
+    color: gray;
+    transition: 0.5s;
+
+
+}
+
+@media (max-width: 1000px) {
+    .newsInfo{
+        margin-left: 8px;
+        width: 40px;
+        font-size: 12px;
+        padding: 20px 2px;
+
+    }
+}
+
+
+
+@media (max-width: 800px) {
+    #carouselExampleControls{
+        display: none;
+
+    }
+    .imageStyle {
+        width:200px ;
+        height: 80px;
+    }
+
+    .textSideBarOne{
+        font-size: 11px;
+
+    }
+    .textSideBarTwo{
+        font-size: 11px;
+
+    }
+    .textSideBarThree{
+        font-size: 11px;
+
+    }
+    .textSideBarfour{
+        font-size: 11px;
+
+    }
+    .textSideBar{
+    }
+    .linetwo{
+       border-left: 2px solid white;padding-left: 8px;
+    }
+    .lineOne{
+        border-left: 2px solid white; padding-left: 8px;
+    }
+
+}
+
+
+
+#domesticNews{
+    border: none;
+    background-color: rgb(238, 238, 238);
+    color: rgb(26, 35, 126);
+    width: 110px;
+}
+#ForeignNews{
+    border: none;
+    background-color: rgb(238, 238, 238);
+    color: rgb(26, 35, 126);
+    width: 110px;
+}
+#allNews{
+    border: none;
+    background-color: rgb(238, 238, 238);
+    color: rgb(26, 35, 126);
+    width: 110px;
+}
+
+.textTitle{
+    background-color: #053755;
+    padding: 10px 14px;
+    color: white;
+    text-align: right;
+    font-size: 13px;
+    font-family: 'AnjomanBold';
+
+}
+.textInformation{
+    text-align: right;
+    padding: 8px 14px;
+    font-size: 13px;
+    color: #141436; ;
+    font-family: 'AnjomanMedium';
+
+}
+.imageFileNews{
+    padding-bottom: 10px;
+}
+
+.imageSlider{
+    height: 74px;
+
+}
+.textSlider{
+    text-align: right;
+    padding-right: 12px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #07073d;
+}
